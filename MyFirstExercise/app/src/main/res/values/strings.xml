@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyFirstApplication</string>
+    <string name="judul_app"><u>Biodata Mahasiswa</u></string>
+</resources>
