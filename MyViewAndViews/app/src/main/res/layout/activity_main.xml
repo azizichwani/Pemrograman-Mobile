@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@android:color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,14 +15,12 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
                 android:src="@drawable/r80"/>
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -30,48 +28,48 @@
                 android:layout_marginLeft="@dimen/activity_horizontal_layout"
                 android:layout_marginRight="@dimen/activity_horizontal_layout"
                 android:background="#4D000000"
+                android:drawableStart="@drawable/ic_flight_white_24dp"
                 android:gravity="center_vertical"
                 android:padding="8dp"
                 android:text="Pesawat R80"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
                 android:textColor="@android:color/white"
-                android:drawableStart="@drawable/ic_flight_white_24dp"
                 android:drawablePadding="4dp"/>
         </FrameLayout>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="@dimen/activity_horizontal_layout"
             android:layout_marginLeft="@dimen/activity_horizontal_layout"
             android:layout_marginTop="@dimen/activity_vertical_layout"
+            android:layout_marginRight="@dimen/activity_horizontal_layout"
             android:layout_marginBottom="@dimen/activity_vertical_layout"
             android:text="@string/name"
-            android:textSize="20sp"
-            />
+            android:textColor="@android:color/black"
+            android:textSize="19sp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Presiden ke 3 Indonesia"
-            android:textSize="12sp"
-            android:layout_marginBottom="@dimen/activity_vertical_layout"
-            android:layout_marginLeft="@dimen/activity_horizontal_layout"
-            android:layout_marginRight="@dimen/activity_horizontal_layout"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/content_text"
             android:layout_marginLeft="@dimen/activity_horizontal_layout"
             android:layout_marginRight="@dimen/activity_horizontal_layout"
             android:layout_marginBottom="@dimen/activity_vertical_layout"
-            android:lineSpacingMultiplier="1"
+            android:text="Presiden Ke 3 Indonesia"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_layout"
+            android:layout_marginRight="@dimen/activity_horizontal_layout"
+            android:layout_marginBottom="@dimen/activity_vertical_layout"
+            android:text="@string/content_text"
+            android:textSize="12sp"
             android:textColor="@android:color/black"/>
 
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="@dimen/activity_horizontal_layout"
             android:layout_marginLeft="@dimen/activity_horizontal_layout"
+            android:layout_marginRight="@dimen/activity_horizontal_layout"
             android:layout_marginBottom="@dimen/activity_vertical_layout"
             android:layout_marginTop="@dimen/activity_vertical_layout">
             <TableRow
@@ -81,17 +79,18 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="14sp"
                     android:layout_marginRight="@dimen/activity_horizontal_layout"
-                    android:layout_marginLeft="@dimen/activity_horizontal_layout"
-                    android:text="Nama"/>
+                    android:text="Nama"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="14sp"
                     android:layout_weight="1"
                     android:text="@string/name"
+                    android:textSize="14sp"
                     android:textColor="@android:color/black"/>
+
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
@@ -100,17 +99,18 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="14sp"
                     android:layout_marginRight="@dimen/activity_horizontal_layout"
-                    android:layout_marginLeft="@dimen/activity_horizontal_layout"
-                    android:text="TTL"/>
+                    android:text="TTL"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="14sp"
                     android:layout_weight="1"
                     android:text="@string/TTL"
+                    android:textSize="14sp"
                     android:textColor="@android:color/black"/>
+
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
@@ -119,17 +119,18 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="14sp"
                     android:layout_marginRight="@dimen/activity_horizontal_layout"
-                    android:layout_marginLeft="@dimen/activity_horizontal_layout"
-                    android:text="Jabatan"/>
+                    android:text="Jabatan"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="14sp"
                     android:layout_weight="1"
                     android:text="@string/jabatan"
+                    android:textSize="14sp"
                     android:textColor="@android:color/black"/>
+
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
@@ -138,33 +139,36 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="14sp"
                     android:layout_marginRight="@dimen/activity_horizontal_layout"
-                    android:layout_marginLeft="@dimen/activity_horizontal_layout"
-                    android:text="Penemuan"/>
+                    android:text="Penemuan"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="14sp"
                     android:layout_weight="1"
                     android:text="@string/penemuan"
+                    android:textSize="14sp"
                     android:textColor="@android:color/black"/>
+
             </TableRow>
+
         </TableLayout>
-        
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
             android:layout_marginLeft="@dimen/activity_horizontal_layout"
             android:layout_marginRight="@dimen/activity_horizontal_layout"
-            android:text="@string/donasi"/>
+            android:layout_marginBottom="@dimen/activity_vertical_layout"
+            android:text="@string/donasi"
+            android:textColor="@android:color/black"/>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/activity_vertical_layout"
-            android:layout_marginLeft="@dimen/activity_horizontal_layout"
-            android:layout_marginRight="@dimen/activity_horizontal_layout">
+            android:layout_marginRight="@dimen/activity_horizontal_layout"
+            android:layout_marginLeft="@dimen/activity_horizontal_layout">
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/r80"
                 android:layout_width="56dp"
@@ -177,24 +181,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:layout_toEndOf="@+id/r80"
-                android:layout_toRightOf="@+id/r80"
-                android:text="@string/ajakan"/>
+                android:layout_toEndOf="@id/r80"
+                android:layout_toRightOf="@id/r80"
+                android:text="@string/ajakan"
+                android:textColor="@android:color/black"/>
+
         </RelativeLayout>
 
         <Button
+            android:id="@+id/btndonasi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_vertical_layout"
-            android:layout_marginRight="@dimen/activity_horizontal_layout"
             android:layout_marginLeft="@dimen/activity_horizontal_layout"
-            android:text="Donasi"/>
-
-
-
-
+            android:layout_marginRight="@dimen/activity_horizontal_layout"
+            android:layout_marginBottom="@dimen/activity_vertical_layout"
+            android:text="@string/donasi"
+            android:textColor="@android:color/black"/>
 
     </LinearLayout>
-
 
 </ScrollView>
