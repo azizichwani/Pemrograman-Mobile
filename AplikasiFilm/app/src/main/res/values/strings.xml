@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">A2.ID</string>
+
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="ket_register">Belum punya akun, Klik tulisan ini</string>
+    <string name="ket_login">Sudah punya akun? Silahkan Masuk</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="nama">Judul Film</string>
+    <string name="durasi">Durasi Film</string>
+    <string name="tahun">Tahun Rilis</string>
+    <string name="stok">Stok Tiket</string>
+    <string name="harga">Harga Tiket</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="sutradara">Sutradara</string>
+    <string name="simpan">Simpan</string>
+    <string name="inform">Aplikasi ini berisi daftar Film Bioskop. Digunakan untuk pendataan Film yang sedang ditayangkan. Fitur yang dimiliki dapat menambah, membaca, memperbarui, dan hapus data film.\n\nVersi : 1.0</string>
+    <string name="owner1">Nama : Abdul Aziz Ichwani </string>
+    <string name="usia1">Usia : 19 Tahun</string>
+    <string name="alamat1">Alamat : Semarang, Indonesia</string>
+    <string name="email1">Email : ichwaniaziz@gmail.com</string>
+    <string name="owner2">Nama : Anisa Eka Pujianti </string>
+    <string name="usia2">Usia : 19 Tahun</string>
+    <string name="alamat2">Alamat : Semarang, Indonesia</string>
+    <string name="email2">Email : anisaekapujianti@gmail.com</string>
+    <string name="tambah_data">Tambah Data Film</string>
+    <string name="hapus">Hapus</string>
+    <string name="perbarui">Perbarui</string>
+    <string name="lihat_data">Lihat Data</string>
+    <string name="input_data">Masukkan Data</string>
+    <string name="informasi_profil">Informasi Profil</string>
+    <string name="daftar_film_tayang">Daftar Film yang Sedang Tayang</string>
+
+
+
+
+</resources>

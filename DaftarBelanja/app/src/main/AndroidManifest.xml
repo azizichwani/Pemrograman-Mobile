@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="azizichwani.nat.myclass">
+    package="azizichwani.nat.daftarbelanja">
 
     <application
         android:allowBackup="true"
@@ -9,17 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DetailData"
-            android:parentActivityName=".DetailData"/>
-        <activity android:name=".UpdateData"
-            android:parentActivityName=".UpdateData"/>
-        <activity android:name=".Informasi"
-            android:parentActivityName=".Informasi"/>
-        <activity android:name=".InputData"
-            android:parentActivityName=".InputData"/>
-        <activity android:name=".DataMahasiswa"
-            android:parentActivityName=".DataMahasiswa"/>
-        <activity android:name=".TampilanAwal">
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,4 +19,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

@@ -6,73 +6,77 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="30dp"
-    android:background="#FFFAF0"
+    android:background="#51036b"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".TampilanAwal">
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="250dp"
-        android:src="@drawable/mugiwara" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/wallpaper"
+        app:civ_border_color="#fcf279"
+        app:civ_border_width="7dp"/>
     <LinearLayout
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="30dp"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="70dp"
         android:gravity="center"
         android:orientation="horizontal">
         <ImageView
             android:layout_width="90dp"
             android:background="@drawable/stylebutton1"
-            android:layout_height="80dp"
-            android:src="@drawable/ic_archive"/>
+            android:layout_height="70dp"
+            android:src="@drawable/ic_archive" />
         <Button
             android:id="@+id/lihatbtn"
             android:layout_width="200dp"
             android:background="@drawable/stylebutton1"
-            android:layout_height="80dp"
-            android:textSize="25sp"
+            android:layout_height="70dp"
+            android:textSize="16.5sp"
             android:textColor="#ffffff"
-            android:text="Lihat Data"/>
+            android:text="@string/lihat_data"/>
     </LinearLayout>
 
     <LinearLayout
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="70dp"
         android:gravity="center"
         android:orientation="horizontal">
         <ImageView
             android:layout_width="90dp"
             android:background="@drawable/stylebutton2"
-            android:layout_height="80dp"
+            android:layout_height="70dp"
             android:src="@drawable/ic_add_box"/>
         <Button
             android:id="@+id/inputbtn"
             android:layout_width="200dp"
             android:background="@drawable/stylebutton2"
-            android:layout_height="80dp"
-            android:textSize="25sp"
+            android:layout_height="70dp"
+            android:textSize="16.5sp"
             android:textColor="#ffffff"
-            android:text="Input data"/>
+            android:text="@string/input_data"/>
     </LinearLayout>
 
     <LinearLayout
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="70dp"
         android:gravity="center"
         android:orientation="horizontal">
         <ImageView
             android:layout_width="90dp"
             android:background="@drawable/stylebutton3"
-            android:layout_height="80dp"
+            android:layout_height="70dp"
             android:src="@drawable/ic_info"/>
         <Button
             android:id="@+id/infobtn"
             android:layout_width="200dp"
             android:background="@drawable/stylebutton3"
-            android:layout_height="80dp"
-            android:textSize="25sp"
+            android:layout_height="70dp"
+            android:textSize="16.5sp"
             android:textColor="#ffffff"
-            android:text="informasi"/>
+            android:text="@string/informasi_profil"/>
     </LinearLayout>
 
 </LinearLayout>

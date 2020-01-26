@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">A2.ID</string>
+
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="ket_register">Do not have an account? Click here</string>
+    <string name="ket_login">Already have an account? Please Sign In</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="nama">Tittle</string>
+    <string name="durasi">Duration</string>
+    <string name="tahun">Year</string>
+    <string name="stok">Stock Ticket</string>
+    <string name="harga">Price</string>
+    <string name="deskripsi">Description</string>
+    <string name="sutradara">Film Director</string>
+    <string name="simpan">Save</string>
+    <string name="inform">This application contains a list of Film Cinemas. Used for recording the film being aired. This Application has features can Create, Read, Update, and Delete movie data.\n\nVersion : 1.0</string>
+    <string name="owner1">Name : Abdul Aziz Ichwani </string>
+    <string name="usia1">Age : 19 Years Old</string>
+    <string name="alamat1">City : Semarang, Indonesia</string>
+    <string name="email1">Email : ichwaniaziz@gmail.com</string>
+    <string name="owner2">Name : Anisa Eka Pujianti </string>
+    <string name="usia2">Age :19 Years Old</string>
+    <string name="alamat2">City : Semarang, Indonesia</string>
+    <string name="email2">Email : anisaekapujianti@gmail.com</string>
+    <string name="tambah_data">Add Film List</string>
+    <string name="hapus">Delete</string>
+    <string name="perbarui">Update</string>
+    <string name="lihat_data">View Data</string>
+    <string name="input_data">Input Data</string>
+    <string name="informasi_profil">Profil Information</string>
+    <string name="daftar_film_tayang">List Film Currently Airing</string>
+
+</resources>

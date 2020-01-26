@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "932617320885",
+    "firebase_url": "https://aplikasifilm-549b9.firebaseio.com",
+    "project_id": "aplikasifilm-549b9",
+    "storage_bucket": "aplikasifilm-549b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932617320885:android:f3ba1cc843e478eb54c1fc",
+        "android_client_info": {
+          "package_name": "azizichwani.nat.aplikasifilm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932617320885-rfkbuslo031q2lcosc6rip7afo105ci4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDza6xcRZx6zCBgJ31rCFXcLM-eY2R7qx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932617320885-rfkbuslo031q2lcosc6rip7afo105ci4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

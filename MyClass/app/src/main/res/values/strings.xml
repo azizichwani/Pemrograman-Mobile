@@ -7,7 +7,7 @@
     <string name="address">Alamat</string>
     <string name="save">Simpan</string>
     <string name="update">Update</string>
-    <string name="informasi">Aplikasi ini berisi daftar Kru Bajak Laut topi jerami. Digunakan untuk pendataan kru. Fitur yang dimiliki dapat menambah, update, dan hapus data kru topi jerami</string>
+    <string name="inform">Aplikasi ini berisi daftar Kru Bajak Laut topi jerami. Digunakan untuk pendataan kru. Fitur yang dimiliki dapat menambah, update, dan hapus data kru topi jerami</string>
     <string name="owner">Created By : Abdul Aziz Ichwani</string>
     <string name="version">Version : 1.1</string>
     <string name="email">Email : ichwaniaziz@gmail.com</string>
